@@ -3,7 +3,8 @@
     Dark Theme
 </h1>
 <h2 align="center">
-    📦 <a href="https://github.com/maximilionus/python_docs_dark/raw/master/python_docs_dark.user.css">INSTALL</a>
+    <div>📦 <a href="https://github.com/maximilionus/python_docs_dark/raw/master/python_docs_dark.user.css">INSTALL</a> 📦</div>
+    <div><code>.user.css</code></div>
 </h2>
 <br><br>
 
