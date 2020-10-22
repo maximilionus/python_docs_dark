@@ -1,0 +1,157 @@
+/* ==UserStyle==
+@name           Python Docs - Dark Theme
+@namespace      https://github.com/maximilionus
+@homepageURL    https://github.com/maximilionus/python_docs_dark
+@updateURL      https://raw.githubusercontent.com/maximilionus/python_docs_dark/master/python_docs_dark.user.css
+@license        MIT
+@version        1.0.0
+@description    Dark theme for docs.python.org
+@author         maximilionus <maximilionuss@gmail.com>
+==/UserStyle== */
+@-moz-document domain("docs.python.org") {
+    :root {
+        --background-dark: #181818;
+        --background-light: #262626;
+        --background-gray: #404040;
+        --text-normal: #b5b5b5;
+        --text-light: #d9d9d9;
+        --text-code-general: #ddcbb4;
+        --text-code-red: #b71c56;
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: var(--background-light);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: var(--background-gray);
+        border-radius: 4px;
+    }
+
+    html {
+        background: var(--background-dark);
+    }
+
+    body {
+        background: var(--background-dark);
+    }
+
+    ul {
+        background: var(--background-dark);
+    }
+
+    div {
+        color: var(--text-normal);
+        background: var(--background-dark);
+    }
+
+    p {
+        color: var(--text-normal);
+    }
+
+    div.related {
+        background-color: var(--background-dark);
+    }
+
+    div.related a {
+        color: var(--text-normal);
+    }
+
+    div.sphinxsidebar {
+        background: var(--background-dark);
+    }
+
+    div.sphinxsidebar h3 a {
+        color: var(--text-light);
+    }
+
+    div.sphinxsidebar h3,
+    div.sphinxsidebar h4 {
+        color: var(--text-light);
+    }
+
+    div.sphinxsidebar a {
+        color: var(--text-normal);
+    }
+
+    div.body {
+        background: inherit;
+    }
+
+    div.sidebar {
+        background: var(--background-light);
+        border: 2px solid var(--background-gray);
+    }
+
+    div.body h1,
+    div.body h2,
+    div.body h3,
+    div.body h4,
+    div.body h5,
+    div.body h6 {
+        color: var(--text-light);
+        background: var(--background-dark);
+    }
+
+    div.body pre {
+        color: var(--text-normal);
+        background: var(--background-light);
+        border: 2px solid var(--background-gray);
+    }
+
+    div.seealso {
+        background: var(--background-light)
+    }
+
+    div.body div.seealso {
+        border: 2px solid var(--background-gray);
+    }
+
+    div.note {
+        background: var(--background-light);
+    }
+
+    div.warning {
+        background: var(--background-light);
+    }
+
+    span.pre {
+        color: var(--text-code-general);
+        background: var(--background-gray);
+    }
+
+    th,
+    dl.field-list > dt {
+        background: var(--background-light);
+    }
+
+    dt:target,
+    span.highlighted {
+        color: var(--text-light);
+        background: var(--background-gray);
+    }
+
+    table.docutils td {
+        background: var(--background-light);
+    }
+
+    table.docutils th {
+        background: var(--background-light);
+    }
+
+    code {
+        background: var(--background-gray);
+    }
+
+    .highlight .go {
+        color: var(--text-light);
+    }
+
+    .highlight .nf {
+        color: var(--text-code-red);
+    }
+}
