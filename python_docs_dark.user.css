@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/maximilionus/python_docs_dark
 @updateURL      https://github.com/maximilionus/python_docs_dark/raw/master/python_docs_dark.user.css
 @license        MIT
-@version        1.0.1
+@version        1.1.0
 @description    Dark theme for docs.python.org
 @author         maximilionus <maximilionuss@gmail.com>
 ==/UserStyle== */
@@ -148,7 +148,11 @@
     }
 
     tt {
-        background-color: var(--background-gray)
+        background-color: var(--background-gray);
+    }
+
+    .note tt {
+        background-color: var(--background-gray);
     }
 
     .highlight .go {
@@ -157,5 +161,37 @@
 
     .highlight .nf {
         color: var(--text-code-red);
+    }
+
+    .highlight .k {
+        color: #34b75a;
+    }
+
+    .highlight .kt {
+        color: #e6572e;
+    }
+
+    .highlight .cm {
+        color: #46a7bf;
+    }
+
+    .highlight .nb {
+        color: #16d84e;
+    }
+
+    .highlight .fm {
+        color: #54afda;
+    }
+
+    .highlight .bp {
+        color: #6ed88c;
+    }
+
+    .highlight .s2 {
+        color: #a6d2ff;
+    }
+
+    .highlight .se {
+        color: #f3a68f;
     }
 }
