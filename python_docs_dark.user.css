@@ -8,11 +8,11 @@
 @description    Dark theme for docs.python.org
 @author         maximilionus <maximilionuss@gmail.com>
 ==/UserStyle== */
-@-moz-document domain("docs.python.org") {
+@-moz-document domain("docs.python.org"), domain("packaging.python.org") {
     :root {
         --background-dark: #181818;
         --background-light: #262626;
-        --background-gray: #404040;
+        --background-gray: #303030;
         --text-normal: #b5b5b5;
         --text-light: #d9d9d9;
         --text-code-general: #ddcbb4;
@@ -32,15 +32,13 @@
         border-radius: 4px;
     }
 
-    html {
-        background: var(--background-dark);
-    }
-
-    body {
-        background: var(--background-dark);
-    }
-
-    ul {
+    html,
+    body,
+    ul,
+    div.related,
+    div.sphinxsidebar,
+    div.warning,
+    div.document {
         background: var(--background-dark);
     }
 
@@ -53,16 +51,8 @@
         color: var(--text-normal);
     }
 
-    div.related {
-        background-color: var(--background-dark);
-    }
-
     div.related a {
         color: var(--text-normal);
-    }
-
-    div.sphinxsidebar {
-        background: var(--background-dark);
     }
 
     div.sphinxsidebar h3 a {
@@ -115,10 +105,6 @@
         background: var(--background-light);
     }
 
-    div.warning {
-        background: var(--background-light);
-    }
-
     span.pre {
         color: var(--text-code-general);
         background: var(--background-gray);
@@ -143,14 +129,9 @@
         background: var(--background-light);
     }
 
-    code {
-        background: var(--background-gray);
-    }
-
-    tt {
-        background-color: var(--background-gray);
-    }
-
+    code,
+    tt,
+    .note code,
     .note tt {
         background-color: var(--background-gray);
     }
@@ -169,6 +150,10 @@
 
     .highlight .kt {
         color: #e6572e;
+    }
+
+    .highlight .kn {
+        color: #2da74f;
     }
 
     .highlight .cm {
