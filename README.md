@@ -1,5 +1,5 @@
 <h1 align="center">
-    <b>Python Docs</b><br>
+    Python Docs<br>
     Dark Theme
 </h1>
 <details align="center">
@@ -8,7 +8,7 @@
 </details>
 
 ## About
-This repository contains the userstyle dark theme for python documentation and other style-inherited web pages.
+This repository contains the userstyle dark theme for python documentation and other web pages that inherit the stylesheet from official docs.
 
 ## Installation
 1. Ensure that **Stylish** extension ([Chrome](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe), [Firefox](https://addons.mozilla.org/ru/firefox/addon/stylish/)) is installed in your browser
