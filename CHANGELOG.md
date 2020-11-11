@@ -4,6 +4,7 @@
 ## **2.1.0** - dev
 ### Added
 - Support for highlighting the searched elements
+- Element class `span.copybutton` now included in style
 
 ### Changed
 - Border rounding of `span.pre` class elements

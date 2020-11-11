@@ -136,16 +136,20 @@
         border-radius: 5px;
     }
 
-    dt:target {
-        color: var(--text-light);
-        background-color: var(--background-gray);
-    }
-
     span.highlighted {
         color: #0f0f0f;
         background-color:#fff08c;
         border: 0.4px solid #fff08c;
         border-radius: 5px;
+    }
+
+    span.copybutton {
+        color: #64a576 !important;
+    }
+
+    dt:target {
+        color: var(--text-light);
+        background-color: var(--background-gray);
     }
 
     table.docutils td,
