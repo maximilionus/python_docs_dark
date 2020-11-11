@@ -1,7 +1,7 @@
 # Python Docs - Dark Theme: Changelog
 
 
-## **1.1.0** - Dev
+## **2.0.0** - 2020.11.11
 ### Added
 - Support for domain `packaging.python.org`
 - Support for syntax highlighting compatibility with dark colors *(WIP)*
