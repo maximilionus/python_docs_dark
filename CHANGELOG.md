@@ -1,7 +1,7 @@
 # Python Docs - Dark Theme: Changelog
 
 
-## **2.1.0** - dev
+## **2.1.0** - 2020.11.11
 ### Added
 - Support for highlighting the searched elements
 - Element class `span.copybutton` now included in style
