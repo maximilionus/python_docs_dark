@@ -134,10 +134,16 @@
         background: var(--background-gray);
     }
 
-    dt:target,
-    span.highlighted {
+    dt:target {
         color: var(--text-light);
-        background: var(--background-gray);
+        background-color: var(--background-gray);
+    }
+
+    span.highlighted {
+        color: #181818;
+        background-color: #fbe54e;
+        border-radius: 10px;
+        border: 2px solid #fbe54e;
     }
 
     table.docutils td,

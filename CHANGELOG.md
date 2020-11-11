@@ -1,6 +1,11 @@
 # Python Docs - Dark Theme: Changelog
 
 
+## **2.1.0** - dev
+### Added
+- Support for highlighting the searched elements
+
+
 ## **2.0.0** - 2020.11.11
 ### Added
 - Support for domain `packaging.python.org`
