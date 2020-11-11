@@ -4,7 +4,7 @@
 </h1>
 <details align="center">
     <summary>Preview Image</summary>
-    <img src="./images/preview.jpg">
+    <img src="./images/preview.png">
 </details>
 
 ## About
