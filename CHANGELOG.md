@@ -5,6 +5,9 @@
 ### Added
 - Support for highlighting the searched elements
 
+### Changed
+- Border rounding of `span.pre` class elements
+
 
 ## **2.0.0** - 2020.11.11
 ### Added

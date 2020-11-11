@@ -132,6 +132,8 @@
     span.pre {
         color: var(--text-code-general);
         background: var(--background-gray);
+        border: 0.4px solid var(--background-gray);
+        border-radius: 5px;
     }
 
     dt:target {
@@ -142,8 +144,8 @@
     span.highlighted {
         color: #181818;
         background-color: #fbe54e;
-        border-radius: 10px;
         border: 2px solid #fbe54e;
+        border-radius: 10px;
     }
 
     table.docutils td,
