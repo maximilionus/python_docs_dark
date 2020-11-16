@@ -1,9 +1,9 @@
 # Python Docs - Dark Theme: Changelog
 
 
-## **2.1.1** - dev
+## **2.1.1** - 2020.11.16
 ### Fixed
-- Colors highlighting for some elements
+- Colors highlighting for some code elements
 - Border color for `div.note`
 
 
