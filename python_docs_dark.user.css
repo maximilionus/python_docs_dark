@@ -119,10 +119,14 @@
     }
 
     div.seealso,
-    div.note,
     th,
     dl.field-list > dt {
         background-color: var(--background-light);
+    }
+
+    div.note {
+        background-color: var(--background-light);
+        border: 1px solid #5d5d5d;
     }
 
     div.body div.seealso {

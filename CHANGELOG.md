@@ -4,6 +4,7 @@
 ## **2.1.1** - dev
 ### Fixed
 - Colors highlighting for some elements
+- Border color for `div.note`
 
 
 ## **2.1.0** - 2020.11.11
