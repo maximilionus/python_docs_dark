@@ -256,4 +256,12 @@
     .highlight .cpf {
         color: #61c0d8;
     }
+
+    .highlight .gh {
+        color: #8787da;
+    }
+
+    .highlight .na {
+        color: #508fce;
+    }
 }

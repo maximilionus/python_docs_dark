@@ -1,6 +1,11 @@
 # Python Docs - Dark Theme: Changelog
 
 
+## **2.1.1** - dev
+### Fixed
+- Colors highlighting for some elements
+
+
 ## **2.1.0** - 2020.11.11
 ### Added
 - Support for highlighting the searched elements
