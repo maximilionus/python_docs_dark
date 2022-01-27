@@ -1,6 +1,11 @@
 # Python Docs - Dark Theme: Changelog
 
 
+## **2.2.0** - 2020.x.x
+### Added
+- Support for new versions of python docs
+
+
 ## **2.1.1** - 2020.11.16
 ### Fixed
 - Colors highlighting for some code elements
