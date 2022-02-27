@@ -31,6 +31,23 @@
         border-radius: 4px;
     }
 
+    .mobile-nav {
+        background-color: var(--background-light);
+        color: var(--text-normal)
+    }
+
+    .menu-wrapper {
+        background-color: var(--background-dark);
+    }
+
+    .menu a {
+        color: var(--text-normal);
+    }
+
+    .toggler__label {
+        border-color: var(--background-dark);
+    }
+
     div#sidebarbutton {
         color: #6d6d6d !important;
         background-color: var(--background-light) !important;
@@ -282,5 +299,9 @@
 
     .highlight .na {
         color: #508fce;
+    }
+
+    .warning code {
+        background-color: var(--background-dark);
     }
 }

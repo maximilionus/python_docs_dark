@@ -1,19 +1,19 @@
 <h1 align="center">
-    Python Docs<br>
-    Dark Theme
+    Python Documentation<br>
+    Dark 🌒 Theme
 </h1>
-<details align="center"><summary>Preview Image</summary>
+<details align="center"><summary align="left">🎨 Preview Image</summary>
     <img src="./images/preview.png">
 </details>
 
-## About
+## ❓ About
 This repository contains the userstyle dark theme for python documentation and other web pages that inherit the stylesheet from official docs.
 
-## Installation
-1. Ensure that **Stylus** extension ([Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Firefox](https://addons.mozilla.org/ru/firefox/addon/styl-us/)) is installed in your browser
-2. 📦 [Install the usercss](https://github.com/maximilionus/python_docs_dark/raw/master/python_docs_dark.user.css)
+## 📦 Installation
+1. 🧩 Ensure that **Stylus** extension ([Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Firefox](https://addons.mozilla.org/ru/firefox/addon/styl-us/)) is installed in your browser
+2. ⬇️ [Install The Usercss](https://github.com/maximilionus/python_docs_dark/raw/master/python_docs_dark.user.css)
 
-## Supported Domains
+## ☄️ Supported Domains
 Here's list of domains that are currenlty supported by this userstyle.
 
 - docs.python.org
