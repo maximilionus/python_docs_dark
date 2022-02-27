@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/maximilionus/python_docs_dark
 @updateURL      https://github.com/maximilionus/python_docs_dark/raw/master/python_docs_dark.user.css
 @license        MIT
-@version        2.1.1
+@version        2.2.0
 @description    Dark theme for docs.python.org
 @author         maximilionus <maximilionuss@gmail.com>
 ==/UserStyle== */
@@ -29,6 +29,23 @@
     ::-webkit-scrollbar-thumb {
         background-color:  #424242;
         border-radius: 4px;
+    }
+
+    .mobile-nav {
+        background-color: var(--background-light);
+        color: var(--text-normal)
+    }
+
+    .menu-wrapper {
+        background-color: var(--background-dark);
+    }
+
+    .menu a {
+        color: var(--text-normal);
+    }
+
+    .toggler__label {
+        border-color: var(--background-dark);
     }
 
     div#sidebarbutton {
@@ -62,7 +79,8 @@
         background-color: var(--background-dark);
     }
 
-    div.topic {
+    div.topic,
+    .nav-content .search input[type=submit] {
         border: 0px;
         background-color: var(--background-gray);
     }
@@ -169,6 +187,20 @@
         background-color: var(--background-gray);
     }
 
+    .version_switcher_placeholder,
+    .language_switcher_placeholder,
+    .nav-content
+    {
+        background-color: var(--background-dark);
+        border: 2px solid var(--background-gray);
+        border-radius: 5px;
+    }
+
+    .language_switcher_placeholder select, .version_switcher_placeholder select {
+        background-color: var(--background-dark);
+        border: none;
+    }
+
     .highlight .o {
         color: #bfbfbf;
     }
@@ -267,5 +299,9 @@
 
     .highlight .na {
         color: #508fce;
+    }
+
+    .warning code {
+        background-color: var(--background-dark);
     }
 }

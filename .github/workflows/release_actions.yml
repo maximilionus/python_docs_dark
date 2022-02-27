@@ -1,0 +1,22 @@
+name: release actions
+
+on:
+  release:
+    types:
+      - published
+
+jobs:
+  attach_usercss:
+    name: attach user-css file
+    runs-on: "ubuntu-18.04"
+    env:
+      usercss_path: "./python_docs_dark.user.css"
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: upload file
+        uses: AButler/upload-release-assets@v2.0
+        with:
+          files: "${{ env.usercss_path }}"
+          repo-token: ${{ secrets.GITHUB_TOKEN }}

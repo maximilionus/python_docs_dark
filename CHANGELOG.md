@@ -1,6 +1,12 @@
 # Python Docs - Dark Theme: Changelog
 
 
+## **2.2.0** - 2022.02.27
+### Added
+- Support for new elements of python documentation pages
+- Support for mobile version elemets
+
+
 ## **2.1.1** - 2020.11.16
 ### Fixed
 - Colors highlighting for some code elements
