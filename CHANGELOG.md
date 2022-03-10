@@ -4,7 +4,7 @@
 ## **2.2.0** - 2022.02.27
 ### Added
 - Support for new elements of python documentation pages
-- Support for mobile version elemets
+- Support for mobile version elements
 
 
 ## **2.1.1** - 2020.11.16
