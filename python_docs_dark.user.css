@@ -214,6 +214,22 @@
         color: #e83b7c;
     }
 
+    .highlight .nn {
+        color: #8f8fff;
+    }
+
+    .highlight .nc {
+        color: #c28eff;
+    }
+
+    .highlight .vm {
+        color: #ffa4f3;
+    }
+
+    .highlight .nd {
+        color: #ffc4c4;
+    }
+
     .highlight .k {
         color: #34b75a;
     }
@@ -296,6 +312,18 @@
 
     .highlight .gh {
         color: #8787da;
+    }
+
+    .highlight .gr {
+        color: #ff6b97;
+    }
+
+    .highlight .gt {
+        color: #7a7cff;
+    }
+
+    .highlight .gp {
+        color: #9ca5f5;
     }
 
     .highlight .na {
