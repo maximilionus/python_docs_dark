@@ -1,6 +1,11 @@
 # Python Docs - Dark Theme: Changelog
 
 
+## 2.2.1 - dev
+### Fixed
+- Text color for `div.body` element
+
+
 ## **2.2.0** - 2022.02.27
 ### Added
 - Support for new elements of python documentation pages
