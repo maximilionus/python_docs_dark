@@ -4,8 +4,8 @@
 @homepageURL    https://github.com/maximilionus/python_docs_dark
 @updateURL      https://github.com/maximilionus/python_docs_dark/raw/master/python_docs_dark.user.css
 @license        MIT
-@version        2.2.0
-@description    Dark theme for docs.python.org
+@version        2.2.1
+@description    Dark theme for python documentation pages
 @author         maximilionus <maximilionuss@gmail.com>
 ==/UserStyle== */
 @-moz-document domain("docs.python.org"), domain("packaging.python.org") {
@@ -112,6 +112,7 @@
     }
 
     div.body {
+        color: var(--text-light);
         background-color: inherit;
     }
 
@@ -206,11 +207,31 @@
     }
 
     .highlight .go {
+        color: var(--text-normal);
+    }
+
+    .highlight .n {
         color: var(--text-light);
     }
 
     .highlight .nf {
         color: #e83b7c;
+    }
+
+    .highlight .nn {
+        color: #8f8fff;
+    }
+
+    .highlight .nc {
+        color: #c28eff;
+    }
+
+    .highlight .vm {
+        color: #ffa4f3;
+    }
+
+    .highlight .nd {
+        color: #ffc4c4;
     }
 
     .highlight .k {
@@ -295,6 +316,18 @@
 
     .highlight .gh {
         color: #8787da;
+    }
+
+    .highlight .gr {
+        color: #ff6b97;
+    }
+
+    .highlight .gt {
+        color: #7a7cff;
+    }
+
+    .highlight .gp {
+        color: #8ac98a;
     }
 
     .highlight .na {

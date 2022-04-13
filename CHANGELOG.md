@@ -1,6 +1,17 @@
 # Python Docs - Dark Theme: Changelog
 
 
+## 2.2.1 - 2022.04.13
+### Fixed
+- Text color for `div.body` element
+- Code highlighting is now more readable
+  - Less contrast fg color for elements: `.nn`, `.nc`, `.vm`, `.nd`, `.gp`, `.gr`, `.gt`, `.go`, `.n`
+  - Swaped colors for python interpreter input/output simulation
+
+### Changed
+- Modified description text in main `.user.css`
+
+
 ## **2.2.0** - 2022.02.27
 ### Added
 - Support for new elements of python documentation pages
