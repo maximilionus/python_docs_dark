@@ -207,6 +207,10 @@
     }
 
     .highlight .go {
+        color: var(--text-normal);
+    }
+
+    .highlight .n {
         color: var(--text-light);
     }
 
@@ -323,7 +327,7 @@
     }
 
     .highlight .gp {
-        color: #9ca5f5;
+        color: #8ac98a;
     }
 
     .highlight .na {

@@ -5,7 +5,7 @@
 ### Fixed
 - Text color for `div.body` element
 - Code highlighting is now more readable
-  - Changed colors for elements: `.nn`, `.nc`, `.vm`, `.nd`, `.gp`, `.gr`, `.gt`
+  - Changed fg color for elements: `.nn`, `.nc`, `.vm`, `.nd`, `.gp`, `.gr`, `.gt`, `.go`, `.n`
 
 
 ## **2.2.0** - 2022.02.27
