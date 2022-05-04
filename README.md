@@ -2,9 +2,12 @@
     Python Documentation<br>
     Dark 🌒 Theme
 </h1>
-<details align="center"><summary align="left">🎨 Preview Image</summary>
-    <img src="./images/preview.png">
-</details>
+
+
+|          Preview          |          Adaptive Mode           |
+| :-----------------------: | :------------------------------: |
+| ![](./images/preview.png) | ![](./images/promo_adaptive.png) |
+
 
 ## ❓ About
 This repository contains the userstyle dark theme for python documentation and other web pages that inherit the stylesheet from official docs.
