@@ -1,6 +1,11 @@
 # Python Docs - Dark Theme: Changelog
 
 
+## 2.3.0 - 2022.05.04
+### Added
+- New [Adaptive theme](./python_docs_dark_adaptive.user.css) variant. Activation depends on selected web browser color scheme.
+
+
 ## 2.2.1 - 2022.04.13
 ### Fixed
 - Text color for `div.body` element
