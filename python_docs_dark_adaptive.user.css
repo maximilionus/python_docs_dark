@@ -4,7 +4,7 @@
 @homepageURL    https://github.com/maximilionus/python_docs_dark
 @updateURL      https://github.com/maximilionus/python_docs_dark/raw/master/python_docs_dark_adaptive.user.css
 @license        MIT
-@version        2.3.0
+@version        2.4.0
 @description    Dark theme for python documentation pages, activation depends on selected web browser color scheme
 @author         maximilionus <maximilionuss@gmail.com>
 ==/UserStyle== */
@@ -49,6 +49,10 @@
             border-color: var(--background-dark);
         }
 
+        .warning code {
+            background-color: var(--background-dark);
+        }
+
         div#sidebarbutton {
             color: #6d6d6d !important;
             background-color: var(--background-light) !important;
@@ -63,6 +67,10 @@
             color: var(--text-normal);
             background-color: var(--background-light);
             border: 1px solid #272727;
+        }
+
+        input:focus {
+            outline: solid var(--text-normal) 2px;
         }
 
         form.inline-search input,
@@ -232,11 +240,15 @@
         }
 
         .highlight .nd {
-            color: #ffc4c4;
+            color: #ff8c77;
         }
 
         .highlight .k {
             color: #34b75a;
+        }
+
+        .highlight .kc {
+            color: #7ec27e;
         }
 
         .highlight .kt {
@@ -275,6 +287,10 @@
             color: #a6d2ff;
         }
 
+        .highlight .sa {
+            color: #f7ef77;
+        }
+
         .highlight .se {
             color: #f3a68f;
         }
@@ -283,8 +299,16 @@
             color: #5b9de0;
         }
 
+        .highlight .si {
+            color: #d66794;
+        }
+
         .highlight .nt {
             color: #e64a7d;
+        }
+
+        .highlight .m {
+            color: var(--text-light);
         }
 
         .highlight .mi {
@@ -328,15 +352,11 @@
         }
 
         .highlight .gp {
-            color: #8ac98a;
+            color: #8ac7c9;
         }
 
         .highlight .na {
             color: #508fce;
-        }
-
-        .warning code {
-            background-color: var(--background-dark);
         }
     }
 }

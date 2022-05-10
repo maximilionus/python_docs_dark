@@ -1,6 +1,18 @@
 # Python Docs - Dark Theme: Changelog
 
 
+## 2.4.0 - 2022.05.11
+### Added
+- Code highlighting
+  - New elements with adjusted color: `.highlight` [`.sa`, `.kc`, `.si`]
+- Input fields border color added to stylesheet
+
+### Changed
+- Code highlighting
+  - `.highlight` [`.nd`, `.m`] colors adjusted
+  - Adjusted colors for python interpreter input/output simulation
+
+
 ## 2.3.0 - 2022.05.04
 ### Added
 - New [Adaptive theme](./python_docs_dark_adaptive.user.css) variant. Activation depends on selected web browser color scheme.
@@ -11,7 +23,7 @@
 - Text color for `div.body` element
 - Code highlighting is now more readable
   - Less contrast fg color for elements: `.nn`, `.nc`, `.vm`, `.nd`, `.gp`, `.gr`, `.gt`, `.go`, `.n`
-  - Swaped colors for python interpreter input/output simulation
+  - Swapped colors for python interpreter input/output simulation
 
 ### Changed
 - Modified description text in main `.user.css`
