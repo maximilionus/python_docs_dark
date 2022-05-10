@@ -1,4 +1,4 @@
-name: release actions
+name: Release Actions
 
 on:
   release:
@@ -7,10 +7,10 @@ on:
 
 jobs:
   attach_usercss:
-    name: attach user-css file
+    name: Attach user-css file
     runs-on: "ubuntu-18.04"
     env:
-      usercss_path: "./python_docs_dark.user.css"
+      usercss_path: "./python_docs_*.user.css"
 
     steps:
       - uses: actions/checkout@v2
