@@ -20,8 +20,11 @@ This repository contains the userstyle dark theme for python documentation and o
 
    > **Adaptive** theme activation depends on selected web browser color scheme, while **Default** one will always be active
 
+## 🆙 Updating
+This userstyle is configured to install all updates right from this repository's `master` branch with Stylus updater, located on the *Installed Styles* page of this extension
+
 ## ☄️ Supported Domains
-Here's list of domains that are currenlty supported by this userstyle.
+Here's list of domains that are currently supported by this userstyle.
 
 - docs.python.org
 - packaging.python.org
