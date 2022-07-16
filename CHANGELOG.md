@@ -1,5 +1,9 @@
 # Python Docs - Dark Theme: Changelog
 
+## 3.0.0 - 2022.07.16
+### Removed
+- Adaptive userstyle removed due to becoming useless with new **Stylus** feature for color scheme detection
+
 
 ## 2.4.0 - 2022.05.11
 ### Added
